@@ -8,7 +8,7 @@ const RoleTemplate = require("./Routes/roleTemplate");
 const HrTemplate = require("./Routes/hrtemplate");
 var socket = require("socket.io");
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 const app = express();
 app.use(bodyParser.json());
