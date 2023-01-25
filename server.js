@@ -18,8 +18,8 @@ connectDB();
 
 app.use(
   cors({
-    origin: ["http://localhost:4200"], //it acsess frontend port 3000
-    //   credentials: true, //it acsess tokens
+    origin: ["http://localhost:4200","https://papyrus-doc.netlify.app"], //it acsess frontend port 3000
+    credentials: true, //it acsess tokens
   })
 );
 
