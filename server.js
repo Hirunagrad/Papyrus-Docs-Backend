@@ -32,7 +32,7 @@ var server = app.listen(PORT, () => {
 });
 
 //good as one two yep
-
+//gg
 var io = socket(server);
 
 // Listen for new connection and print a message in console
